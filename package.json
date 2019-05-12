@@ -1,0 +1,28 @@
+{
+  "name": "distance-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha spec/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lloydrhodes87/distance-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lloydrhodes87/distance-api/issues"
+  },
+  "homepage": "https://github.com/lloydrhodes87/distance-api#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.0"
+  }
+}
