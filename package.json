@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lloydrhodes87/distance-api#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "dotenv": "^8.0.0",
     "express": "^4.16.4"
   },
