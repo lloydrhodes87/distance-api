@@ -14,6 +14,6 @@ app.use((err, req, res, next) => {
   res.send({ error: err });
 });
 
-app.listen(process.env.port || 9090, () => {
-  console.log('app listening');
+app.listen(process.env.PORT || 9090, () => {
+  console.log('app listening', process.env.PORT);
 });
