@@ -1,10 +1,8 @@
 const apiCall = require('../models/apiCall');
 
 const getData = (req, res, next) => {
-  const { origin } = req.query;
-  const { destination } = req.query;
-  console.log('before');
-  apiCall(origin, destination)
+  const { origin, destination, mode } = req.query;
+  apiCall(origin, destination, mode)
     .then(({ data }) => {
       res.send(data);
     })
